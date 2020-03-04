@@ -3,8 +3,8 @@ fetch('http://api.openweathermap.org/data/2.5/forecast?lat=-34.6230&lon=-58.4015
     return response.json();
   })
   .then(function(myJson) {
-    console.log(myJson);
+    document.getElementById("var").innerHTML = "<p>"+myJson+"</p>";
   });
-console.log("hi");
+
 
 document.getElementById("var").innerHTML = "<p> hola </p>";
