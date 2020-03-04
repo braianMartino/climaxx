@@ -6,7 +6,7 @@ fetch(
   
   })
   .then(function(myJson) {
-    document.getElementById("var").innerHTML = "<p>" + myJson + "</p>";
+    document.getElementById("var").innerHTML = "<p> myJson </p>";
     console.log(myJson);
   });
 
